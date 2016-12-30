@@ -1,18 +1,38 @@
-input#search{
+a {
+    text-decoration: inherit;
+}
+input#cyph_search{
+    font-family: "proxima nova";
     font-size: 120%; width: 150px; height: 30px;
     border-radius: 15px;
     background-image: url("images/magnifier_glass.png");
     background-size: 23px;
     background-repeat: no-repeat;
-    background-position: 4px 3px;
-    background-color: #333;
+    background-position: 4px 2px;
+    background-color: #F1F1F1;
     padding-left: 28px;
     padding-right: 8px;
     -webkit-transition: all 300ms ease-in-out;  
 }
-
-input#search:focus{
+input#cyph_search:focus{
     width: 200px;
-    background-color: #EEE;
+    background-color: #FFF;
     outline: none;
+}
+a#cyph_linkbtn{
+    color: #43A2EC;
+    width: auto;
+    height: auto;
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    border:solid 2px #43A2EC;
+    border-radius: 50px;
+    padding:1px 10px;
+    -webkit-transition-duration: 300ms; 
+}
+a#cyph_linkbtn:hover{
+    background-color: #43A2EC;
+    color: #fff;
 }
