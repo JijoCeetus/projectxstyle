@@ -3,7 +3,7 @@ a {
 }
 input#cyph_search{
     font-family: "proxima nova";
-    font-size: 120%; width: 150px; height: 30px;
+    font-size: 100%; width: 150px; height: 20px;
     border-radius: 15px;
     background-image: url("images/magnifier_glass.png");
     background-size: 23px;
