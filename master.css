@@ -71,3 +71,21 @@ input[type=checkbox]:checked +
  #switch-btn{
      background:#5BB234;
 }
+.cyph_radio{
+  -webkit-appearance:none;
+  content:'';
+  width:16px;
+  height:16px;
+  background-color:#43A2EC;
+  border-radius:50%;
+  outline:none;
+}
+.cyph_radio:checked:after{
+  content:'';
+  background-color:#fff;
+  width:50%;
+  height:50%;
+  display:block;
+  margin:25%;
+  border-radius:50%;
+}
